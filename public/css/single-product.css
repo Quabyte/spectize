@@ -1,0 +1,448 @@
+body {
+    color: #76838f !important;
+}
+
+.detail-navbar {
+    background-color: transparent;
+    z-index: 6;
+    position: absolute;
+    color: #FFFFFF;
+    font: normal 14px/20px "Graphik", "Helvetica", helvetica, arial, sans-serif;
+    transition: background-color 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width: 100%;
+}
+
+.product-detail {
+    display: flex;
+    -webkit-box-flex: 4;
+    flex-grow: 4;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+.cover-photo {
+    height: 516px;
+    position: relative;
+    min-width: 100%;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.cover-photo-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.red-container {
+    background-image: linear-gradient(to top, rgba(249, 104, 104, 1), rgba(0, 0, 0, 1));
+    background-size: cover;
+}
+
+.purple-container {
+    background-image: linear-gradient(to top, rgba(146, 109, 222, 1), rgba(0, 0, 0, 1));
+    background-size: cover;
+}
+
+.orange-container {
+    background-image: linear-gradient(to top, rgba(242, 166, 84, 0.75), rgba(0, 0, 0, 1));
+    background-size: cover;
+}
+
+.product-overview {
+    width: 1110px;
+    height: 444px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.18000000000000005);
+    z-index: 3;
+    margin-top: 72px;
+    position: relative;
+}
+
+.red-overview {
+    background: linear-gradient(to top, rgba(249, 104, 104, 0.75), rgba(0, 0, 0, 0.75)),url(/img/cpu.jpg);
+    background-size: cover;
+}
+
+.purple-overview {
+    background: linear-gradient(to top, rgba(146, 109, 222, 0.75), rgba(0, 0, 0, 0.75));
+    background-size: cover;
+}
+
+.orange-overview {
+    background: linear-gradient(to top, rgba(242, 166, 84, 0.75), rgba(0, 0, 0, 0.75)),url(/img/gpu.jpg);
+    background-size: cover;
+}
+
+.product-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
+    color: white !important;
+    padding: 2rem;
+    text-align: left;
+}
+
+.product-score {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-top: auto;
+    color: white !important;
+    padding: 2rem;
+    text-align: right;
+}
+
+.score {
+    font-size: 4rem;
+}
+
+.score-metric {
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    line-height: 1;
+    margin: 0;
+}
+
+.product-sticky-container {
+    width: 100%;
+}
+
+.product-sticky-header {
+    width: 100% !important;
+    left: 0 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 1px solid #E2E5E7;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(226, 229, 231);
+    border-top: 0;
+    min-height: 60px;
+    width: 100%;
+    background: #FAFAFA;
+    z-index: 1;
+}
+
+.product-sticky-header-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 1110px;
+}
+
+.product-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 50%;
+}
+
+.product-nav-item {
+    position: relative;
+    text-transform: capitalize;
+    color: #6F7881;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    margin: 0 3rem 0 0;
+    font-size: 14px;
+}
+
+.product-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.product-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 1110px;
+    margin: 0;
+    margin-top: 0px;
+}
+
+.buy-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.buy-button-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid #E2E5E7;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(226, 229, 231);
+    border-top: 0;
+    border-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 0 0 19px 0 rgba(0, 0, 0, .11);
+    background: #FFF;
+}
+
+.buy-button-price {
+    ddisplay: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 60px;
+    flex: 0 0 60px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 1rem;
+    border-bottom: 1px solid #E2E5E7;
+}
+
+.buy-button-price-label {
+    font-size: 16px;
+    color: #37393E;
+}
+
+.buy-button-price-amount {
+    font-size: 20px;
+    color: #37393E;
+    font-weight: 700;
+}
+
+.buy-button-options {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: 1rem;
+}
+
+.buy-button-options-button {
+    box-shadow: none;
+    border: none;
+    color: #FFF;
+    height: 42px;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 6px;
+    font-size: 14px;
+    letter-spacing: 0.64px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition-property: color, background, border-color;
+}
+
+.red-button {
+    background: linear-gradient(45deg, rgba(249, 104, 104, 1), rgba(214, 73, 75, 1));
+    border: 1px solid rgba(249, 104, 104, 1);
+}
+
+.purple-button {
+    background: linear-gradient(45deg, rgba(146, 109, 222, 1), rgba(109, 69, 188, 1));
+    border: 1px solid rgba(146, 109, 222, 1);
+}
+
+.orange-button {
+    background: linear-gradient(45deg, rgba(242, 166, 84, 0.75), rgba(233, 143, 46, 1));
+    border: 1px solid rgba(242, 166, 84, 0.75);
+}
+
+.buy-button-social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: 1px solid #E2E5E7;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: #FAFAFA;
+}
+
+.buy-button-share {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0.8rem 0;
+    padding-top: 0.5rem;
+    margin-top: 1.5rem;
+    margin-top: 0;
+}
+
+.buy-button-share-label {
+    color: #6F7881;
+    font-size: 14px;
+}
+
+.buy-button-share-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.buy-button-share-facebook,
+.buy-button-share-twitter,
+.buy-button-share-googleplus {
+    width: 2rem;
+    margin-left: 2.5rem;
+    font-size: 19px;
+    color: #6F7881;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.title {
+    color: #37474f;
+    font-family: Graphik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.5rem;
+}
+
+
+#overview {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5em;
+    max-width: 680px;
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.overview-card {
+    background: #fafafa;
+    padding: 15px 0;
+    border: 1px solid #E2E5E7;
+}
+
+#benchmarks {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5em;
+    max-width: 680px;
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+#specs {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5em;
+    max-width: 680px;
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+#alternatives {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5em;
+    max-width: 680px;
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.specs-table {
+    margin-top: 25px;
+}

@@ -1,0 +1,113 @@
+.product-card {
+    margin: 10px 0 !important;
+    display: inline-block;
+    width: 100%;
+    height: 350px;
+    background: #fff;
+    white-space: initial;
+    vertical-align: top;
+    text-align: left;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.15);
+    position: relative;
+    font-smoothing: antialiased !important;
+    -webkit-transition: box-shadow .2s;
+    transition: box-shadow .2s;
+}
+
+.photo-background {
+    background: #C1CCD0;
+    -webkit-animation: fadeIn 500ms;
+    animation: fadeIn 500ms;
+}
+
+.photo {
+    background: linear-gradient(45deg, rgba(249, 104, 104, .7), rgba(0, 0, 0, .7));    width: 100%;
+    background-size: cover;
+    padding-top: 40%;
+    text-align: center;
+    position: relative;
+    -webkit-transition: background-size .35s;
+    transition: background-size .35s;
+}
+
+.image {
+    position: absolute;
+    bottom: -19px;
+    left: 16px;
+    border-radius: 4px;
+    background: #fff;
+    padding: 4px;
+}
+
+.review-point {
+    position: absolute;
+    bottom: -19px;
+    right: 16px;
+    border-radius: 4px;
+    background: linear-gradient(45deg, rgba(249, 104, 104, 1), rgba(214, 73, 75, 1));;
+    color: #fafafa;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.product-name {
+    padding: 30px 20px 12px;
+}
+
+.product-name a {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #37393E;
+    display: block;
+    line-height: 1.1em;
+    max-height: 4.4em;
+    overflow: hidden;
+}
+
+.product-info {
+    padding: 0 20px 12px;
+    font-size: 13px;
+    color: #78848F;
+    font-weight: 100;
+}
+
+.product-card-footer {
+    border-top: 1px solid #DBE2ED;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 45px;
+    line-height: 24px;
+    font-weight: 100;
+}
+
+.product-provider {
+    color: #78848F;
+    position: absolute;
+    left: 0;
+    right: 50%;
+    bottom: 0;
+    top: 0;
+    padding: 10px 10px 10px 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.product-price {
+    position: absolute;
+    right: 0;
+    left: 50%;
+    bottom: 0;
+    top: 0;
+    padding: 10px 20px 10px 10px;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-align: right;
+    font-weight: 700;
+}

@@ -1,0 +1,206 @@
+{
+  "GPU_clock": [
+    {
+      "text": "1090 MHz"
+    }
+  ],
+  "ROPs": [
+    {
+      "text": "16"
+    }
+  ],
+  "TDP": [
+    {
+      "text": "60 W"
+    }
+  ],
+  "TMUs": [
+    {
+      "text": "56"
+    }
+  ],
+  "architecture": [
+    {
+      "text": "GCN 4.0"
+    }
+  ],
+  "bandwidth": [
+    {
+      "text": "112.0 GB/s"
+    }
+  ],
+  "board_number": [
+    {
+      "text": "C994-71"
+    }
+  ],
+  "boost_clock": [
+    {
+      "text": "1150 MHz"
+    }
+  ],
+  "bus_interface": [
+    {
+      "text": "PCIe 3.0 x8"
+    }
+  ],
+  "bus_width": [
+    {
+      "text": "128 bit"
+    }
+  ],
+  "compute_units": [
+    {
+      "text": "14"
+    }
+  ],
+  "cores": [
+    {
+      "text": "896"
+    }
+  ],
+  "details": [
+    {
+      "text": "The Radeon RX 560 896SP is a graphics card by AMD, launched in December 2017. Built on the 14 nm process, and based on the Polaris 21 graphics processor, in its Polaris 21 LE variant, the card supports DirectX 12.0. The Polaris 21 graphics processor is an average sized chip with a die area of 123 mm² and 3,000 million transistors. Unlike the fully unlocked Radeon RX 560, which uses the same GPU but has all 1024 shaders enabled, AMD has disabled some shading units on the Radeon RX 560 896SP to reach the product's target shader count. It features 896 shading units, 56 texture mapping units and 16 ROPs. AMD has placed 2,048 MB GDDR5 memory on the card, which are connected using a 128-bit memory interface. The GPU is operating at a frequency of 1090 MHz, which can be boosted up to 1150 MHz, memory is running at 1750 MHz."
+    },
+    {
+      "text": "We recommend the AMD Radeon RX 560 896SP for gaming with highest details at resolutions up to, and including, 1680x1050."
+    },
+    {
+      "text": "Being a dual-slot card, the AMD Radeon RX 560 896SP does not require any additional power connector, its power draw is rated at 60 W maximum. Display outputs include: 1x DVI, 1x HDMI, 1x DisplayPort. Radeon RX 560 896SP is connected to the rest of the system using a PCIe 3.0 x8 interface. The card measures 170 mm in length, and features a dual-slot cooling solution."
+    }
+  ],
+  "die_size": [
+    {
+      "text": "123 mm²"
+    }
+  ],
+  "direct_x": [
+    {
+      "text": "12.0"
+    }
+  ],
+  "floating_point_performance": [
+    {
+      "text": "2,061 GFLOPS"
+    }
+  ],
+  "gpu_variant": [
+    {
+      "text": "Polaris 21 LE"
+    }
+  ],
+  "graphics_processor": [
+    {
+      "text": "Polaris 21"
+    }
+  ],
+  "image": [
+    {
+      "alt": "AMD Polaris 21 Image",
+      "src": "https://www.techpowerup.com/gpudb/images/c812.jpg",
+      "title": "GPU Photo"
+    }
+  ],
+  "length": [
+    {
+      "text": "6.7 inches"
+    },
+    {
+      "text": "170 mm"
+    }
+  ],
+  "memory_bus": [
+    {
+      "text": "128 bit"
+    }
+  ],
+  "memory_clock": [
+    {
+      "text": "1750 MHz"
+    },
+    {
+      "text": "7000 MHz effective"
+    }
+  ],
+  "memory_size": [
+    {
+      "text": "2048 MB"
+    }
+  ],
+  "memory_type": [
+    {
+      "text": "GDDR5"
+    }
+  ],
+  "name": [
+    {
+      "text": "AMD Radeon RX 560 896SP"
+    }
+  ],
+  "openCL": [
+    {
+      "text": "2.0"
+    }
+  ],
+  "openGL": [
+    {
+      "text": "4.6"
+    }
+  ],
+  "outputs": [
+    {
+      "text": "1x DVI\n1x HDMI\n1x DisplayPort"
+    }
+  ],
+  "pixel_rate": [
+    {
+      "text": "18.40 GPixel/s"
+    }
+  ],
+  "power_connectors": [
+    {
+      "text": "None"
+    }
+  ],
+  "process_size": [
+    {
+      "text": "14 nm"
+    }
+  ],
+  "production_status": [
+    {
+      "text": "Active"
+    }
+  ],
+  "released": [
+    {
+      "text": "Dec 5th, 2017"
+    }
+  ],
+  "shader_model": [
+    {
+      "text": "5.0"
+    }
+  ],
+  "shading_units": [
+    {
+      "text": "896"
+    }
+  ],
+  "slot_width": [
+    {
+      "text": "Dual-slot"
+    }
+  ],
+  "texture_rate": [
+    {
+      "text": "64.40 GTexel/s"
+    }
+  ],
+  "transistors": [
+    {
+      "text": "3,000 million"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+.color-dark-grey {
+    color: #526069;
+}
+
+.color-red {
+    color: #F96868;
+}
+
+.color-pink {
+    color: #F96197;
+}
+
+.color-purple {
+    color: #926DDE;
+}
+
+.color-indigo {
+    color: #677AE4;
+}
+
+.color-blue {
+    color: #62A8EA;
+}
+
+.color-cyan {
+    color: #57C7D4;
+}
+
+.color-teal {
+    color: #3AA99E;
+}
+
+.color-green {
+    color: #46BE8A;
+}
+
+.color-light-green {
+    color: #9ECE67;
+}
+
+.color-yellow {
+    color: #F7DA64;
+}
+
+.color-orange {
+    color: #F2A654;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.cpu-category-header {
+    height: 330px;
+    background-image: linear-gradient(to top, rgba(249, 104, 104, 0.75), rgba(0, 0, 0, 0.75)),url(/img/cpu.jpg);
+    background-position: center;
+}
+
+.gpu-category-header {
+    height: 330px;
+    background-image: linear-gradient(to top, rgba(146, 109, 222, 0.75), rgba(0, 0, 0, 0.75)),url(/img/gpu.jpg);
+    background-position: center;
+}
+
+.laptop-category-header {
+    height: 330px;
+    background-image: linear-gradient(to top, rgba(146, 109, 222, 0.75), rgba(0, 0, 0, 0.75)),url(/img/laptop.jpg);
+    background-position: center;
+}
+
+.smartphone-category-header {
+    height: 330px;
+    background-image: linear-gradient(to top, rgba(103, 122, 228, 0.75), rgba(0, 0, 0, 0.75)),url(/img/smartphone.jpg);
+    background-position: center;
+}
+
+.filters {
+    background-color: #fff;
+    padding: 0;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+
+.filter-block {
+    padding: 0 15px;
+}

@@ -1,0 +1,181 @@
+[{
+  "url": "https://www.techpowerup.com/cpudb/1102/a10-5700",
+  "result": {
+    "extractorData": {
+      "url": "https://www.techpowerup.com/cpudb/1102/a10-5700",
+      "data": [
+        {
+          "group": [
+            {
+              "#of_cores": [
+                {
+                  "text": "4"
+                }
+              ],
+              "#of_threads": [
+                {
+                  "text": "4"
+                }
+              ],
+              "SMP#of_CPUs": [
+                {
+                  "text": "1"
+                }
+              ],
+              "base_clock": [
+                {
+                  "text": "100 MHz"
+                }
+              ],
+              "boost": [
+                {
+                  "text": "4000 MHz"
+                }
+              ],
+              "brand_image": [
+                {
+                  "alt": "AMD A10 Trinity",
+                  "src": "https://tpucdn.com/cpudb/images/logos/39.gif"
+                }
+              ],
+              "cache_l1": [
+                {
+                  "text": "128 KB (per core)"
+                }
+              ],
+              "cache_l2": [
+                {
+                  "text": "1024 KB (per core)"
+                }
+              ],
+              "cache_l3": [
+                {
+                  "text": "0 KB"
+                }
+              ],
+              "codename": [
+                {
+                  "text": "Trinity"
+                }
+              ],
+              "cores": [
+                {
+                  "text": "4"
+                }
+              ],
+              "die_size": [
+                {
+                  "text": "246 mm²"
+                }
+              ],
+              "features": [
+                {
+                  "text": "MMX\n \n3DNow!\n \nSSE\n \nSSE2\n \nSSE3\n \nSSE4A\n \nAMD64\n \nCnQ\n \nNX bit\n \nAMD-V"
+                }
+              ],
+              "frequency": [
+                {
+                  "text": "3400 MHz"
+                }
+              ],
+              "image": [
+                {
+                  "src": "https://tpucdn.com/cpudb/images/cpus/1102.jpg"
+                }
+              ],
+              "integrated_graphics": [
+                {
+                  "text": "Radeon HD 7660D"
+                }
+              ],
+              "market": [
+                {
+                  "text": "Desktop"
+                }
+              ],
+              "memory_support": [
+                {
+                  "text": "DDR3"
+                }
+              ],
+              "multiplier": [
+                {
+                  "text": "34.0x"
+                }
+              ],
+              "name": [
+                {
+                  "text": "AMD A10-5700"
+                }
+              ],
+              "package": [
+                {
+                  "text": "uPGA"
+                }
+              ],
+              "part#": [
+                {
+                  "text": "AD5700OKA44HJ"
+                },
+                {
+                  "text": "AD5700OKHJBOX"
+                }
+              ],
+              "process_size": [
+                {
+                  "text": "32 nm"
+                }
+              ],
+              "production_status": [
+                {
+                  "text": "unknown"
+                }
+              ],
+              "released": [
+                {
+                  "text": "Oct 2012"
+                }
+              ],
+              "socket": [
+                {
+                  "text": "AMD Socket FM2"
+                }
+              ],
+              "tCaseMax": [
+                {
+                  "text": "71°C"
+                }
+              ],
+              "tdp": [
+                {
+                  "text": "65 W"
+                }
+              ],
+              "transistors": [
+                {
+                  "text": "1178 million"
+                }
+              ],
+              "turbo_clock": [
+                {
+                  "text": "up to 4000 MHz"
+                }
+              ],
+              "voltage": [
+                {
+                  "text": "1.475 V"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "pageData": {
+      "statusCode": 200,
+      "timestamp": 1512567310428
+    },
+    "timestamp": 1512567310428,
+    "sequenceNumber": 0
+  }
+}]
