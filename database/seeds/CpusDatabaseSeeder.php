@@ -12,7 +12,7 @@ class CpusDatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $rawJson = file_get_contents('http://spectize.dev/CPU-Detail.json');
+        $rawJson = file_get_contents('http://spectize.com/CPU-Detail.json');
         $decoded = json_decode($rawJson, true);
 
         for ($i = 0; $i < sizeof($decoded); $i++) {

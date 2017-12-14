@@ -12,7 +12,7 @@ class GPUTableSeeder extends Seeder
      */
     public function run()
     {
-        $rawJson = file_get_contents('http://spectize.dev/GPU-Detail.json');
+        $rawJson = file_get_contents('http://spectize.com/GPU-Detail.json');
         $decoded = json_decode($rawJson, true);
 
         for ($i = 0; $i < sizeof($decoded); $i++) {
