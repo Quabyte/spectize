@@ -26,6 +26,14 @@
     font-size: 28px;
 }
 
+.fs-20px {
+    font-size: 20px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
 .disabled {
     color: #CCD5DB;
 }

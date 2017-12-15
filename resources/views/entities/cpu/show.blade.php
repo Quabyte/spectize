@@ -22,7 +22,7 @@
         <!-- Product Overview -->
         <header class="cover-photo">
             <div class="cover-photo-container red-container">
-                <div class="product-overview red-overview">
+                <div class="product-overview">
                     <div class="product-title">
                         <img src="{{ $cpu->brand_image_source }}" alt="{{ $cpu->name }}">
                         <h1>{{ $cpu->name }}</h1>
@@ -118,32 +118,32 @@
                 </div>
             </div>
             <div class="product-container">
-                <div class="product-content pt-20">
+                <div class="product-content">
                     <!-- Overview -->
                     <div id="overview">
                         <h2 class="title">Overview</h2>
                         <div class="row">
                             <div class="col-md-3 text-center">
                                 <div class="overview-card">
-                                    <p class="mb-0 fs-28px">{{ $cpu->core_count }}</p>
+                                    <p class="mb-0 fs-20px fw-600">{{ $cpu->core_count }}</p>
                                     <small>Cores</small>
                                 </div>
                             </div>
                             <div class="col-md-3 text-center">
                                 <div class="overview-card">
-                                    <p class="mb-0 fs-28px">{{ $cpu->tdp }}</p>
+                                    <p class="mb-0 fs-20px fw-600">{{ $cpu->tdp }}</p>
                                     <small>TDP</small>
                                 </div>
                             </div>
                             <div class="col-md-3 text-center">
                                 <div class="overview-card">
-                                    <p class="mb-0 fs-28px">{{ $cpu->frequency }}</p>
+                                    <p class="mb-0 fs-20px fw-600">{{ $cpu->frequency }}</p>
                                     <small>Frequency</small>
                                 </div>
                             </div>
                             <div class="col-md-3 text-center">
                                 <div class="overview-card">
-                                    <p class="mb-0 fs-28px">{{ $cpu->boost }}</p>
+                                    <p class="mb-0 fs-20px fw-600">{{ $cpu->boost }}</p>
                                     <small>Boost</small>
                                 </div>
                             </div>

@@ -52,12 +52,12 @@ body {
 }
 
 .red-container {
-    background-image: linear-gradient(to top, rgba(249, 104, 104, 1), rgba(0, 0, 0, 1));
+    background: linear-gradient(to top, rgba(249, 104, 104, 0.75), rgba(0, 0, 0, 0.75)),url('/img/cpu.jpg');
     background-size: cover;
 }
 
 .purple-container {
-    background-image: linear-gradient(to top, rgba(146, 109, 222, 1), rgba(0, 0, 0, 1));
+    background-image: linear-gradient(to top, rgba(146, 109, 222, 0.75), rgba(0, 0, 0, 0.75)),url('/img/gpu.jpg');
     background-size: cover;
 }
 
@@ -67,32 +67,17 @@ body {
 }
 
 .product-overview {
-    width: 1110px;
+    width: 100%;
+    max-width: 1110px;
     height: 444px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.18000000000000005);
     z-index: 3;
     margin-top: 72px;
     position: relative;
-}
-
-.red-overview {
-    background: linear-gradient(to top, rgba(249, 104, 104, 0.75), rgba(0, 0, 0, 0.75)),url(/img/cpu.jpg);
-    background-size: cover;
-}
-
-.purple-overview {
-    background: linear-gradient(to top, rgba(146, 109, 222, 0.75), rgba(0, 0, 0, 0.75));
-    background-size: cover;
-}
-
-.orange-overview {
-    background: linear-gradient(to top, rgba(242, 166, 84, 0.75), rgba(0, 0, 0, 0.75)),url(/img/gpu.jpg);
-    background-size: cover;
 }
 
 .product-title {
@@ -101,7 +86,7 @@ body {
     left: 0;
     margin-top: auto;
     color: white !important;
-    padding: 2rem;
+    padding: 1rem;
     text-align: left;
 }
 
@@ -157,7 +142,9 @@ body {
     display: -ms-flexbox;
     display: flex;
     position: relative;
-    width: 1110px;
+    width: 100%;
+    max-width: 1110px;
+    padding: 0 1rem;
 }
 
 .product-nav {
@@ -167,7 +154,7 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 50%;
+    width: 70%;
 }
 
 .product-nav-item {
@@ -204,15 +191,19 @@ body {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    width: 1110px;
+    width: 100%;
+    max-width: 1110px;
     margin: 0;
     margin-top: 0px;
+    padding: 1rem;
 }
 
 .buy-button {
     position: absolute;
     right: 0;
     top: 0;
+    width: 30%;
+    z-index: 1;
 }
 
 .buy-button-container {
@@ -223,7 +214,7 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: 400px;
+    width: 100%;
     border: 1px solid #E2E5E7;
     border-top-width: 1px;
     border-top-style: solid;
@@ -405,7 +396,7 @@ body {
     text-align: left;
     font-size: 14px;
     line-height: 1.5em;
-    max-width: 680px;
+    max-width: 750px;
     width: 100%;
     margin-bottom: 2.5rem;
 }
@@ -420,7 +411,7 @@ body {
     text-align: left;
     font-size: 14px;
     line-height: 1.5em;
-    max-width: 680px;
+    max-width: 750px;
     width: 100%;
     margin-bottom: 2.5rem;
 }
@@ -429,7 +420,7 @@ body {
     text-align: left;
     font-size: 14px;
     line-height: 1.5em;
-    max-width: 680px;
+    max-width: 750px;
     width: 100%;
     margin-bottom: 2.5rem;
 }
@@ -438,11 +429,12 @@ body {
     text-align: left;
     font-size: 14px;
     line-height: 1.5em;
-    max-width: 680px;
+    max-width: 750px;
     width: 100%;
     margin-bottom: 2.5rem;
 }
 
 .specs-table {
+    border: 1px solid #e2e5e7;
     margin-top: 25px;
 }

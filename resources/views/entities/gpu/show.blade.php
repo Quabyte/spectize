@@ -22,7 +22,7 @@
     <!-- Product Overview -->
         <header class="cover-photo">
             <div class="cover-photo-container purple-container">
-                <div class="product-overview purple-overview">
+                <div class="product-overview">
                     <div class="product-title">
                         <img src="{{ $gpu->image_source }}" alt="{{ $gpu->name }}">
                         <h1>{{ $gpu->name }}</h1>
@@ -51,22 +51,22 @@
 
                         <!-- Sticky Nav Start -->
                         <div class="product-nav">
-                            <div class="product-nav-item">
+                            <div class="product-nav-item text-center">
                                 <span>
                                     <i class="ti-search"></i> overview
                                 </span>
                             </div>
-                            <div class="product-nav-item">
+                            <div class="product-nav-item text-center">
                                 <span class="disabled">
                                     <i class="ti-pulse"></i> benchmarks
                                 </span>
                             </div>
-                            <div class="product-nav-item">
+                            <div class="product-nav-item text-center">
                                 <span>
                                     <i class="ti-panel"></i> specs
                                 </span>
                             </div>
-                            <div class="product-nav-item">
+                            <div class="product-nav-item text-center">
                                 <span class="disabled">
                                     <i class="ti-control-shuffle"></i> alternatives
                                 </span>
@@ -118,32 +118,32 @@
                 </div>
             </div>
             <div class="product-container">
-                <div class="product-content pt-20">
+                <div class="product-content">
                     <!-- Overview -->
                     <div id="overview">
                         <h2 class="title">Overview</h2>
                         <div class="row">
                             <div class="col-md-3 text-center">
                                 <div class="overview-card">
-                                    <p class="mb-0 fs-28px">{{ $gpu->graphics_processor }}</p>
+                                    <p class="mb-0 fs-20px fw-600">{{ $gpu->graphics_processor }}</p>
                                     <small>Graphics Processor</small>
                                 </div>
                             </div>
                             <div class="col-md-3 text-center">
                                 <div class="overview-card">
-                                    <p class="mb-0 fs-28px">{{ $gpu->cores }}</p>
+                                    <p class="mb-0 fs-20px fw-600">{{ $gpu->cores }}</p>
                                     <small>Cores</small>
                                 </div>
                             </div>
                             <div class="col-md-3 text-center">
                                 <div class="overview-card">
-                                    <p class="mb-0 fs-28px">{{ $gpu->tmus }}</p>
+                                    <p class="mb-0 fs-20px fw-600">{{ $gpu->tmus }}</p>
                                     <small>TMUS</small>
                                 </div>
                             </div>
                             <div class="col-md-3 text-center">
                                 <div class="overview-card">
-                                    <p class="mb-0 fs-28px">{{ $gpu->rops }}</p>
+                                    <p class="mb-0 fs-20px fw-600">{{ $gpu->rops }}</p>
                                     <small>ROPS</small>
                                 </div>
                             </div>
@@ -151,25 +151,25 @@
                         <div class="row mt-25">
                             <div class="col-md-3 text-center">
                                 <div class="overview-card">
-                                    <p class="mb-0 fs-28px">{{ $gpu->memory_size }}</p>
+                                    <p class="mb-0 fs-20px fw-600">{{ $gpu->memory_size }}</p>
                                     <small>Memory Size</small>
                                 </div>
                             </div>
                             <div class="col-md-3 text-center">
                                 <div class="overview-card">
-                                    <p class="mb-0 fs-28px">{{ $gpu->memory_type }}</p>
+                                    <p class="mb-0 fs-20px fw-600">{{ $gpu->memory_type }}</p>
                                     <small>Memory Type</small>
                                 </div>
                             </div>
                             <div class="col-md-3 text-center">
                                 <div class="overview-card">
-                                    <p class="mb-0 fs-28px">{{ $gpu->memory_bus }}</p>
+                                    <p class="mb-0 fs-20px fw-600">{{ $gpu->memory_bus }}</p>
                                     <small>Memory Bus</small>
                                 </div>
                             </div>
                             <div class="col-md-3 text-center">
                                 <div class="overview-card">
-                                    <p class="mb-0 fs-28px">{{ $gpu->bus_width }}</p>
+                                    <p class="mb-0 fs-20px fw-600">{{ $gpu->bus_width }}</p>
                                     <small>Bus Width</small>
                                 </div>
                             </div>
